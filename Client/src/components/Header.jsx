@@ -18,7 +18,6 @@ import { Toaster } from "react-hot-toast";
 
 const Header = () => {
   const { userInfo } = useSelector((state) => state.user);
-  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const handleLogout = (e) => {
